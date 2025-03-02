@@ -30,7 +30,7 @@ h1 {
   margin: 0;
 }
 
-.info, .appearance,.hoho {
+.info, .appearance, .hoho {
   margin: 20px 0;
   padding: 15px;
   background: #e9ecef;
@@ -59,7 +59,32 @@ h1 {
     width: 250px;
   border: 3px solid #007bff;
   border-radius: 10px;
-  box-shadow: 0 0 40px rgba(0, 0, 255, 0, 8 );
+  box-shadow: 0 0 40px rgba(0, 0, 255, 0.8);
   display: block;
   margin: 0 auto;
+}
+
+.btn {
+  background-color: #007bff; /* لون الخلفية */
+  color: white; /* لون النص */
+  font-size: 18px; /* حجم الخط */
+  font-weight: bold; /* جعل النص عريضًا */
+  padding: 12px 24px; /* التباعد الداخلي */
+  border: none; /* إزالة الحدود */
+  border-radius: 8px; /* زوايا دائرية */
+  cursor: pointer; /* تغيير المؤشر عند التحويم */
+  transition: all 0.3s ease-in-out; /* تأثير انتقالي ناعم */
+  display: block;
+  margin: 20px auto; /* توسيط الزر */
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* ظل خفيف */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* تغيير اللون عند التحويم */
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5); /* زيادة الظل */
+}
+
+.btn:active {
+  transform: scale(0.95); /* تقليل الحجم عند الضغط */
 }
